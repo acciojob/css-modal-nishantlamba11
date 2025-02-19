@@ -4,7 +4,7 @@
         const closeModal = document.querySelector(".close-modal");
         
         openModal.addEventListener("click", () => {
-            modal.style.display = "flex";
+            modal.style.display = "block";
         });
         
         closeModal.addEventListener("click", () => {
